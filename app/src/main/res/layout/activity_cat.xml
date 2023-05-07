@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CatActivity">
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="409dp"
+        android:layout_height="854dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="630dp"
+        android:layout_height="135dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:srcCompat="@drawable/image17" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="127dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="349dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:padding="8dp"
+            android:text="It Is More Than Just Sale"
+            android:textColor="#5A2FA6"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="368dp"
+            android:layout_height="156dp"
+            app:cardBackgroundColor="#B7A0E1"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="30dp"
+                android:text="Infinite_handmade-craft"
+                android:textColor="#5A2FA6"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button101"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+                android:text="CheckOut"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/button88"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+
+                android:text="Info"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="108dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/image18" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="35dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="100dp"
+                app:srcCompat="@drawable/_6"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="368dp"
+            android:layout_height="154dp"
+            app:cardBackgroundColor="#B7A0E1"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="30dp"
+                android:text="Infinite_handmade_craft"
+                android:textColor="#5A2FA6"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button100"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+
+                android:text="CheckOut"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+
+                android:text="Info"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="108dp"
+                android:layout_height="109dp"
+                app:srcCompat="@drawable/image19" />
+
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="35dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="100dp"
+                app:srcCompat="@drawable/_6"
+                tools:ignore="DuplicateIds" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="379dp"
+            android:layout_height="155dp"
+            app:cardBackgroundColor="#B7A0E1"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="30dp"
+                android:text="Quality clay cooking pot"
+                android:textColor="#5A2FA6"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+
+                android:text="CheckOut"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_margin="-5dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="-10dp"
+
+
+                android:text="Info"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="108dp"
+                android:layout_height="109dp"
+                app:srcCompat="@drawable/image20" />
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="40dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-0dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="100dp"
+                app:srcCompat="@drawable/_6" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="63dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="67dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/baseline_supervised_user_circle_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:layout_margin="-20dp"
+            android:layout_marginStart="-110dp"
+            android:layout_marginTop="-50dp"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

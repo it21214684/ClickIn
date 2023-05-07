@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/PlaceOrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            android:text="Dashboard"
+            android:textColor="#603a91"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/left" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="385dp"
+                android:layout_height="215dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="95dp"
+                android:layout_marginEnd="21dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bigstock_online_shopping_on_internet_e_346190662_min_653x300_removebg_preview" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="106dp"
+                android:text="Sell Products"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="106dp"
+                android:text="Buy Products"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="106dp"
+                android:text="Find Jobs"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="106dp"
+                android:text="Donations"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="106dp"
+                android:text="Hire Employee"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

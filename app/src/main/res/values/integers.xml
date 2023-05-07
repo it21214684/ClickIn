@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="nEms">10</integer>
+    <integer name="pEms">10</integer>
+    <integer name="eEms">10</integer>
+    <integer name="aEms">10</integer>
+</resources>
