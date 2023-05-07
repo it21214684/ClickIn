@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="413dp"
+        android:layout_height="227dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background" />
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="667dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="343dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/UpdatepTitle"
+            android:textColor="#603a91"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext_background1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:text="@string/ProductName"
+            android:textColor="#603a91" />
+
+        <EditText
+            android:id="@+id/editTextTextProductprice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext_background1"
+            android:ems="10"
+            android:hint="Name"
+            android:padding="8dp"
+
+            android:text="@string/Productprice"
+            android:textColor="#603a91" />
+
+        <EditText
+            android:id="@+id/editTextTextProductURL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext_background1"
+            android:ems="10"
+            android:hint="Name"
+            android:padding="8dp"
+
+            android:text="@string/ImageURL"
+            android:textColor="#603a91" />
+
+        <EditText
+            android:id="@+id/editTextTextProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext_background1"
+            android:ems="10"
+            android:hint="Name"
+            android:padding="8dp"
+
+            android:text="@string/PQuantity"
+            android:textColor="#603a91" />
+
+        <EditText
+            android:id="@+id/editTextTextProductDiscription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext_background1"
+            android:ems="10"
+            android:hint="Name"
+            android:padding="8dp"
+
+            android:text="@string/Discription"
+            android:textColor="#603a91" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background1"
+            android:text="@string/UpdatePbtn"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/background2" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="63dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baseline_home_24" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="67dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/baseline_supervised_user_circle_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="55dp"
+            android:layout_height="48dp"
+            android:layout_margin="-20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-50dp"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

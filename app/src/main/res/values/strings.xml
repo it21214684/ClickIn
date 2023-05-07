@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Mad Project</string>
+    <string name="CTopic">It Is More Than Just Sale</string>
+    <string name="CName">Infinite_handmade_craft</string>
+    <string name="AddCartbtn">Add Cart</string>
+    <string name="infobtn">Info</string>
+    <string name="C1Name">Infinite_handmade_craft</string>
+    <string name="Title">CLICKED IN</string>
+    <string name="logText1">Welcome  Back To Clicked In</string>
+    <string name="logText2">All You Need Is Here</string>
+    <string name="logbtn">Log In</string>
+    <string name="signbtn">SignUp</string>
+    <string name="addEdit">Add/Edit Your Product</string>
+    <string name="addEditT1">Infinite_handmade_craft</string>
+    <string name="Pprice">Rs.2800/=</string>
+    <string name="item">(1 item price)</string>
+    <string name="Pstock">50 Stock</string>
+    <string name="Pdetails">Materials : wood,velvet,cloth,clay,Stiker,Tassel,Plastic Pipe  Color:Red,Black,Blue,Green,Brown , Size:Length:42cm Width:6cm Height:14cm</string>
+    <string name="PHighlights">HightLights:</string>
+    <string name="updatebtn">Update</string>
+    <string name="deletebtn">Delete</string>
+    <string name="importbtn">Import</string>
+    <string name="SellingTitle">Come And Share Ours</string>
+    <string name="SellingText1">Bulid Your Bussiness</string>
+    <string name="SellingText2">Let\'s share all your belongings with us and earn money.Let\'s take ours and keep ours.</string>
+    <string name="SellingText3">Hiring Can Be Done</string>
+    <string name="sellbtn">Sellig Now</string>
+    <string name="SellingText4">Let\'s reduce unemployement. Let\'s give our jobs a chance and succeed with everyone</string>
+    <string name="hiringbtn">Hiring Now</string>
+    <string name="productName">Product Name</string>
+    <string name="ProductPrice">Product price</string>
+    <string name="imageDetail">Image URL</string>
+    <string name="ProductQuantity">Product Quantity</string>
+    <string name="ProductDiscription">Discription</string>
+    <string name="addProductbtn">Add Product</string>
+    <string name="UpdatepTitle">Update a product</string>
+    <string name="ProductName">Product Name</string>
+    <string name="Productprice">Product price</string>
+    <string name="ImageURL">Image URL</string>
+    <string name="PQuantity">Product Quantity</string>
+    <string name="Discription">Discription</string>
+    <string name="UpdatePbtn">Update Product</string>
+    <string name="CtextStyle">bold</string>
+    <string name="infoTextStyle">bold</string>
+    <string name="M2TextStyle">bold</string>
+</resources>

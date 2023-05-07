@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MadProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.SellingPs"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Info"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProductCategory"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProductCalculate"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UpdateDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProductDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FetchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SellProduct"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
