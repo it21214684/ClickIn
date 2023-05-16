@@ -29,6 +29,5 @@ class VacanciessActivity : AppCompatActivity() {
             val intent = Intent(this, Details::class.java)
             startActivity(intent)
         }
-
     }
 }
