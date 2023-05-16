@@ -8,8 +8,6 @@ import com.example.madproject.R
 
 class ProductCategory : AppCompatActivity() {
 
-
-
     private lateinit var button88: Button
 
 
