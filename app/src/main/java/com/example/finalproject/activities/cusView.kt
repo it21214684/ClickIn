@@ -39,10 +39,12 @@ class cusView : AppCompatActivity() {
 
             if (value1 > 100) {//condition
                 val alertDialog = AlertDialog.Builder(this)
+
                     .setTitle("Km limit Exceeded")//title of the alert message
                     .setMessage("Your extra charger is 250")//alert message
                     .setPositiveButton("OK") { dialog, _ ->
                         dialog.dismiss()
+
                     }
                     .create()
 
