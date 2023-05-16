@@ -91,7 +91,7 @@ class BuyActivity2 : AppCompatActivity() {
             editTextTextPersonName.error = "Please enter your name"
         }
         if(cusPhone.isEmpty()) {
-            editTextTextPhone.error = "Please enter phone number"
+            editTextTextPhone.error = "Please enter your phone number"
         }
         if(cusMail.isEmpty()) {
             editTextTextEmail.error = "Please email"
