@@ -60,6 +60,7 @@ class FetchingActivity : AppCompatActivity(),SearchView.OnQueryTextListener{
         }
         return true
     }
+    //no
     private fun search(query: String) {
         val searchResultList = arrayListOf<EmployeeModel>()
         for (EmployeeModel in empList) {
