@@ -16,7 +16,6 @@ class ProductCategory : AppCompatActivity() {
 
         button88 = findViewById(R.id.button88)
 
-
         button88.setOnClickListener {
             val intent = Intent( this,Info ::class.java)
             startActivity(intent)
