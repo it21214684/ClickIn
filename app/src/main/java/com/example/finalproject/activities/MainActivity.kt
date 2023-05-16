@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         button11.setOnClickListener{
 
            val intent = Intent( this, CatActivity::class.java)
-          startActivity(intent)
+           startActivity(intent)
 
         }
 
