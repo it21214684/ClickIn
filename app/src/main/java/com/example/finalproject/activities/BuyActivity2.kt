@@ -97,7 +97,7 @@ class BuyActivity2 : AppCompatActivity() {
             editTextTextEmail.error = "Please your email"
         }
         if(cusAdd.isEmpty()) {
-            editTextTextAddress.error = "Please enter address"
+            editTextTextAddress.error = "Please enter your address "
         }
 
         val cusId = dbRef.push().key!!
