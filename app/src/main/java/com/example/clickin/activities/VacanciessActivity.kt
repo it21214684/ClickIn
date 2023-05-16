@@ -18,6 +18,7 @@ class VacanciessActivity : AppCompatActivity() {
         button = findViewById(R.id.button)
         buttond = findViewById(R.id.buttond)
 
+
         //navigate to insert form
         button.setOnClickListener {
             val intent = Intent(this, InsertionActivity::class.java)
