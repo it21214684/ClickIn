@@ -61,6 +61,8 @@ class SellProduct : AppCompatActivity() {
 
   // Form  Validations
 
+        if(PersonName.isEmpty()||Productprice.isEmpty()||ProductURL.isEmpty()||ProductQuantity.isEmpty()||ProductDiscription.isEmpty()){
+
         if(PersonName.isEmpty()){
             editTextTextPersonName.error = "Product Name is required"
         }
@@ -76,6 +78,8 @@ class SellProduct : AppCompatActivity() {
         if(ProductDiscription.isEmpty()){
             editTextTextProductDiscription.error = "Product Discription is required"
         }
+        }
+        else{
 
         val productId = dbRef.push().key!!
 
@@ -101,4 +105,4 @@ class SellProduct : AppCompatActivity() {
 
             }
     }
-}
+}}
