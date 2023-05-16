@@ -20,6 +20,7 @@ import kotlin.collections.ArrayList
 
 class FetchActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
+
     //initialize variables
 
     private lateinit var productRecyclerView: RecyclerView
