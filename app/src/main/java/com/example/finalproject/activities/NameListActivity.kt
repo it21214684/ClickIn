@@ -42,7 +42,7 @@ class NameListActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
         // set up the SearchView
         searchView.setOnQueryTextListener(this)
-        searchView.queryHint = "Search your name"
+        searchView.queryHint = "Search your name here"
 
         cusList = arrayListOf<CustomerModel>()
         getCustomerData()
