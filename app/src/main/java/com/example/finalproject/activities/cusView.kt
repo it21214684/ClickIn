@@ -52,7 +52,7 @@ class cusView : AppCompatActivity() {
 
 
         }
-
+        //set a click listener for a "button17"
         button17.setOnClickListener{
 
             val intent = Intent( this, BuyActivity2::class.java)
