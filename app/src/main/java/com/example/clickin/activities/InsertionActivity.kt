@@ -38,15 +38,15 @@ class InsertionActivity : AppCompatActivity() {
         btnSaveData.setOnClickListener {
 
 
-                val alertDialog = AlertDialog.Builder(this)
-                    .setTitle("Hey joob seeker")
-                    .setMessage("Check your emails. We will reply soon")
-                    .setPositiveButton("OK") { dialog, _ ->
-                        dialog.dismiss()
-                    }
-                    .create()
-
-                alertDialog.show()
+//                val alertDialog = AlertDialog.Builder(this)
+//                    .setTitle("Hey joob seeker")
+//                    .setMessage("Check your emails. We will reply soon")
+//                    .setPositiveButton("OK") { dialog, _ ->
+//                        dialog.dismiss()
+//                    }
+//                    .create()
+//
+//                alertDialog.show()
 
 
             saveEmployeeData()
@@ -66,8 +66,9 @@ class InsertionActivity : AppCompatActivity() {
         val empAddress = etEmpAddress.text.toString()
         val empSkills = etEmpSkills.text.toString()
         val empEmail = etEmpEmail.text.toString()
-
-        if (empName.isEmpty()) {
+        //validation
+        if(empName.isEmpty() || empAge.isEmpty() || empAddress.isEmpty() || empSkills.isEmpty() || empEmail.isEmpty()){
+            if (empName.isEmpty()) {
             etEmpName.error = "Please enter name"
         }
         if (empAge.isEmpty()) {
@@ -81,7 +82,8 @@ class InsertionActivity : AppCompatActivity() {
         }
         if (empEmail.isEmpty()) {
             etEmpEmail.error = "Please enter email"
-        }
+        }}
+        else{
         val empId = dbRef.push().key!!
 
         val employee = EmployeeModel(empId, empName, empAge, empAddress, empSkills, empEmail)
@@ -100,6 +102,6 @@ class InsertionActivity : AppCompatActivity() {
                 Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_LONG).show()
             }
 
-    }
+    }}
 
 }

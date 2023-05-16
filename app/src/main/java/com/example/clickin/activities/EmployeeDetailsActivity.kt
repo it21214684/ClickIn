@@ -63,6 +63,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
         tvEmpEmail.text = intent.getStringExtra("empEmail")
 
     }
+    // update dialog box
     private fun openUpdateDialog(
         empId: String,
         empName: String
@@ -112,6 +113,8 @@ class EmployeeDetailsActivity : AppCompatActivity() {
             tvEmpEmail.text = etEmpEmail.text.toString()
 
             alertDialog.dismiss()
+
+
         }
     }
 
@@ -128,6 +131,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
         val empInfo = EmployeeModel(id, name, age, address, skills, email)
         dbRef.setValue(empInfo)
     }
+    //delete function
     private fun deleteRecord(
         id: String
     ){
