@@ -31,7 +31,7 @@ class cusView : AppCompatActivity() {
             val value1 = input1.text.toString().toDouble()
             val value2 = input2.text.toString().toDouble()
 
-            // Multiply the values
+            // Multiply value 2 by value 1
             val result = value1 * value2
 
             // Display the result in a TextView
