@@ -28,8 +28,6 @@ class ProductDetails : AppCompatActivity() {
     private lateinit var button11: Button
 
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_details)
@@ -47,7 +45,6 @@ class ProductDetails : AppCompatActivity() {
 
             )
         }
-
 
     // set the delete button and delete notification
 
