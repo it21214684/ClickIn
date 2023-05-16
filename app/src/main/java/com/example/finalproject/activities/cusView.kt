@@ -39,6 +39,7 @@ class cusView : AppCompatActivity() {
             resultTextView.text = result.toString()
 
             if (value1 > 100) {//if condition
+
                 val alertDialog = AlertDialog.Builder(this)
 
                     .setTitle("Km limit Exceeded")//title of the alert message
