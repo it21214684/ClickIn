@@ -99,13 +99,6 @@ class SellProduct : AppCompatActivity() {
 
 
 
-
-
-
-
-
-
-
    // display a toast message
 
             }.addOnFailureListener{ err ->
