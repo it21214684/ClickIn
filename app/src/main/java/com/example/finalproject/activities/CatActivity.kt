@@ -7,6 +7,7 @@ import android.widget.Button
 import com.example.finalproject.R
 
 class CatActivity : AppCompatActivity() {
+
     private lateinit var button100: Button
     private lateinit var button101: Button
     private lateinit var button81: Button
