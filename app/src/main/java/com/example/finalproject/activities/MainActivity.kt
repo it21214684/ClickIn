@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var button11: Button
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dash2)//set the layout "activity_dash2" for MainActivity
 
@@ -17,10 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         //set a click listener for a "button11"
         button11.setOnClickListener{
-
-           val intent = Intent( this, CatActivity::class.java)
-           startActivity(intent)
-
+            val intent = Intent( this, CatActivity::class.java)
+            startActivity(intent)
         }
 
 
