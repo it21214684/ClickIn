@@ -88,7 +88,7 @@ class BuyActivity2 : AppCompatActivity() {
         val cusAdd = editTextTextAddress.text.toString()
 
         if(cusName.isEmpty()) {
-            editTextTextPersonName.error = "Please enter name"
+            editTextTextPersonName.error = "Please enter your name"
         }
         if(cusPhone.isEmpty()) {
             editTextTextPhone.error = "Please enter phone number"
