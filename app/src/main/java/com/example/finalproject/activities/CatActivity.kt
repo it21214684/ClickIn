@@ -12,6 +12,7 @@ class CatActivity : AppCompatActivity() {
     private lateinit var button81: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cat)//set the layout activity_cat for CatActivity
 
