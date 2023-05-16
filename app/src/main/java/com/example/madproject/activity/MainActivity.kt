@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
        button9.setOnClickListener{
 
-
             val intent = Intent( this, SellingPs::class.java)
            startActivity(intent)
       }
