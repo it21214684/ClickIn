@@ -68,11 +68,6 @@ class InsertionActivity : AppCompatActivity() {
         val empEmail = etEmpEmail.text.toString()
         //validation
 
-
-
-
-
-
         if(empName.isEmpty() || empAge.isEmpty() || empAddress.isEmpty() || empSkills.isEmpty() || empEmail.isEmpty()){
             if (empName.isEmpty()) {
             etEmpName.error = "Please enter name"
