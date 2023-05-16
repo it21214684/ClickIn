@@ -90,7 +90,7 @@ class FetchActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         })
     }
 
-    // retrieve the  product data
+    // retrieve the  product
     private fun getProductData(){
         productRecyclerView.visibility = View.GONE
         tvLoadingData.visibility = View.VISIBLE
