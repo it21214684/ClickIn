@@ -15,6 +15,13 @@ class VacanciessActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.vacanciess)
 
+
+
+
+
+
+
+
         button = findViewById(R.id.button)
         buttond = findViewById(R.id.buttond)
 
