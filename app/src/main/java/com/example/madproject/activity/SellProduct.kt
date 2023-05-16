@@ -98,6 +98,14 @@ class SellProduct : AppCompatActivity() {
                 editTextTextProductDiscription.text.clear()
 
 
+
+
+
+
+
+
+
+
    // display a toast message
 
             }.addOnFailureListener{ err ->
