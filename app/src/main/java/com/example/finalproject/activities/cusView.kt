@@ -11,6 +11,7 @@ import com.example.finalproject.R
 
 
 class cusView : AppCompatActivity() {
+
     private  lateinit var input1 :EditText
     private   lateinit var input2 :EditText
     private  lateinit  var buttonCal :Button
