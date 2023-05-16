@@ -81,6 +81,9 @@ class SellProduct : AppCompatActivity() {
         }
         else{
 
+
+
+
         val productId = dbRef.push().key!!
 
 //  on below line passing all data to model class
