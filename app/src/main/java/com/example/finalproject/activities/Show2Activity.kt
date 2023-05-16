@@ -25,6 +25,7 @@ class Show2Activity : AppCompatActivity() {
     private lateinit var btnDash:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_show2)//set the layout activity_show2 for Show2Activity
 
@@ -41,6 +42,7 @@ class Show2Activity : AppCompatActivity() {
                 intent.getStringExtra("cusName").toString()
             )
         }
+
         //set a click listener for a "btnDelete"
         btnDelete.setOnClickListener {
 
