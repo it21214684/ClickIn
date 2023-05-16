@@ -124,8 +124,6 @@ class FetchActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
                     })
 
-
-                    // retrieve the  product data
                     productRecyclerView.visibility = View.VISIBLE
                     tvLoadingData.visibility = View.GONE
                 }

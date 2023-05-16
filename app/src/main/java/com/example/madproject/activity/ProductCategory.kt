@@ -13,7 +13,6 @@ class ProductCategory : AppCompatActivity() {
     private lateinit var button88: Button
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_category)
