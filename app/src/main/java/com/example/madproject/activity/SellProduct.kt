@@ -22,9 +22,10 @@ class SellProduct : AppCompatActivity() {
     private lateinit var editTextTextProductDiscription:EditText
     private lateinit var button4:Button
 
+
+
     // Setting data in firebase Database
     private lateinit var dbRef:DatabaseReference
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +41,6 @@ class SellProduct : AppCompatActivity() {
         button4 = findViewById(R.id.button4)
 
 // Setting data in firebase Database
-
         dbRef = FirebaseDatabase.getInstance().getReference("Products")
 
         button4.setOnClickListener{
