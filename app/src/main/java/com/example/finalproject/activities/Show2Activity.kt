@@ -13,6 +13,7 @@ import com.example.finalproject.models.CustomerModel
 import com.google.firebase.database.FirebaseDatabase
 
 class Show2Activity : AppCompatActivity() {
+
     private lateinit var cusId:TextView
     private lateinit var tvCusName:TextView
     private lateinit var tvCusPhone:TextView
